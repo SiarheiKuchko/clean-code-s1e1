@@ -4,25 +4,28 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+h1 {
+  display: none;
+}
+.header-container {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.header-container img {
   width: 100%;
 }
-.aaa .more_inf {
+.header-container .header-container__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .header-container {
     text-align: center;
   }
 }
-.centered-main-page-element {
+.main-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -37,7 +40,7 @@ body {
 }
 ul {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 li,
 h3 {
@@ -49,7 +52,7 @@ button {
 }
 button {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
